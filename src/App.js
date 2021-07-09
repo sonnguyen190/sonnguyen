@@ -1,9 +1,10 @@
 import './App.css';
+import anhson from './image/anhson.jpg';
 function App() {
   return (
     <div className="App" >
       <div className='fss'>   <h1> My Profile</h1>
-   <img className="image" src="https://scontent.fpnh22-3.fna.fbcdn.net/v/t1.6435-9/121504294_776632179843389_8604437484388416535_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=RkYBw-WzFY8AX8VBgL4&tn=MW9RXgUXB6bI-xWs&_nc_ht=scontent.fpnh22-3.fna&oh=d4f6426b5b4b357f9f3547653aecddb1&oe=60E729EC" alt="" />
+   <img className="image" src={anhson} alt="" />
    <h2>Nguyễn Văn Lâm Sơn  </h2>
    <h4>Lập Trình Viên Cùi Bắp</h4>
    <img className='gif' src="https://img2.thuthuatphanmem.vn/uploads/2018/12/31/anh-dong-de-thuong-va-dep_112053878.gif" alt="" />
